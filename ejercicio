@@ -1,0 +1,32 @@
+#Elabore un algoritmo que calcule el promedio de las mediciones de temperatura del dia tomadas en una bodega de almacenamiento de quipos biomedicos.
+#El algoritmo debera:
+  #1. pedir el numero de mediciones a ingresar
+  #2. solicitar las mediciones, tantas veces como se haya ingresado el item
+  #3. Si alguna de las medicones estuviera por fuera del rango de 15 a 30 grados celsius, debera sacar una alarma diciento "ALERTA!!! temperatura mayor a 30°co menor a 15 °c". Segun sea el caso
+  #4. Al final, el algoritmo debera calcular y mostrar el promedio de las mediciones
+
+  sum = 0
+cant_mediciones = int(input("Ingres cantidad de mediones a promediar: "))
+cont = 1
+while cont <= cant_mediciones:
+    med = float(input("medicion: "))
+    if med > 30:
+        print("alerta >30")
+    elif med < 15:
+        print("alerta <15")
+    sum += med
+    cont += 1
+print(sum/cant_mediciones)
+
+#con listas
+
+cant_medi = int(input("ingrese la cantidad de mediciones a promediar: "))
+mediciones = []
+cont = 0
+while cont < cant_medi:
+    cont+=1
+    mediciones.append(float(input("ingrese la {} medicion: ".format(cont))))
+while cont > 0:
+    
+y=type(mediciones[1])
+print(y,mediciones)
