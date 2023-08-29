@@ -1,4 +1,4 @@
-#Elabore un algoritmo que calcule el promedio de las mediciones de temperatura del dia tomadas en una bodega de almacenamiento de quipos biomedicos.
+#Elabore un algoritmo que calcule el promedio de las mediciones de temperatura del dia tomadas en una bodega de almacenamiento de equipos biomedicos.
 #El algoritmo debera:
   #1. pedir el numero de mediciones a ingresar
   #2. solicitar las mediciones, tantas veces como se haya ingresado el item
