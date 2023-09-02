@@ -26,7 +26,10 @@ cont = 0
 while cont < cant_medi:
     cont+=1
     mediciones.append(float(input("ingrese la {} medicion: ".format(cont))))
-while cont > 0:
-    
-y=type(mediciones[1])
-print(y,mediciones)
+    if mediciones[cont-1] > 30:
+            print("alerta >30")
+            continue
+    elif mediciones[cont-1] < 15:
+            print("alerta <15")
+            continue
+print(sum(mediciones)/len(mediciones))
