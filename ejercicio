@@ -5,7 +5,7 @@
   #3. Si alguna de las medicones estuviera por fuera del rango de 15 a 30 grados celsius, debera sacar una alarma diciento "ALERTA!!! temperatura mayor a 30°co menor a 15 °c". Segun sea el caso
   #4. Al final, el algoritmo debera calcular y mostrar el promedio de las mediciones
 
-  sum = 0
+sum = 0
 cant_mediciones = int(input("Ingres cantidad de mediones a promediar: "))
 cont = 1
 while cont <= cant_mediciones:
